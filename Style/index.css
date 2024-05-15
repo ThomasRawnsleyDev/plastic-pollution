@@ -1,0 +1,48 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e1d;
+        color: #eeeeee;
+    }
+    h1.mainHead {
+        color: white;
+    }
+    h2.mainSub {
+        color: #cccccc;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #e1e1e1;
+        color: #111111;
+    }
+    h1.mainHead {
+        color: black;
+    }
+    h2.mainSub {
+        color: #444444;
+    }
+}
+
+body {
+    font-family: 'Bahnschrift';
+    src: url('Fonts/BAHNSCHRIFT.woff') format('woff');
+}
+
+h1.mainHead {
+    font-size: 120px;
+    text-align: center;
+}
+
+h2.mainSub {
+    font-size: 60px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+p.sum {
+    font-size: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+}
